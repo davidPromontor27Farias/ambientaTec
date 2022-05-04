@@ -22,8 +22,11 @@ function crearSeccionAlumnos(){
         card.appendChild(nombreAlumno);
         
         contenedorPadre.appendChild(card);
+
+
     }
 
     console.log(contenedorPadre);
 
 }
+
