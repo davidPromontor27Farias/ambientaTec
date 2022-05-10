@@ -4,9 +4,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
     certificaciones();
 })
 
-
-
-
 function certificaciones(){
     const contenedorMain = document.querySelector(".contain-certifaid");
     const childCountain = document.createElement("DIV");
