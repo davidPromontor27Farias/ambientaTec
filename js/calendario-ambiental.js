@@ -51,6 +51,67 @@ const junio = [
     {dia: "26", celeb: "Dia internacional para la defensa del ecosistema manglar"}
    ];
 
+const julio = [ 
+    {dia: "3", celeb: "Dia Internacional Libre de Bolsas de Plastico)"},
+    {dia: "7", celeb: "Dia internacional de la Conservavion del Suelo"},
+    {dia: "10", celeb: "Accidente del Seveso (1976)"},
+    {dia: "22", celeb: "Declaracion del primer Parque Nacional en España"},
+    {dia: "26", celeb: "Dia internacional para la Defensa del Ecossitema Manglar"}
+];
+const agosto = [ 
+    {dia: "6", celeb: "Aniversario de Hiroshima (1945)"},
+    {dia: "9", celeb: "Dia internacional de las Poblaciones Indigenas"},
+    {dia: "29", celeb: "Dia internacional contra los Ensayos Nucleares"}
+];
+const septiembre = [ 
+    {dia: "7", celeb: "Dia internacional del Aire Limpio por un Cielo Azul"},
+    {dia: "13", celeb: "Accidente radiologico de Goiania (Brasil, 1987)"},
+    {dia: "16", celeb: "Dia internacional de Proteccion de la Capa de Ozono"},
+    {dia: "21", celeb: "Dia internacional de la Paz"},
+    {dia: "21", celeb: "Dia internacional contra los monocultivos de Arboles"},
+    {dia: "22", celeb: "Dia sin coches"},
+    {dia: "26", celeb: "Dia internacional para la eliminacion total de las armas nucleares"},
+    {dia: "27", celeb: "Publicacion de la primavera silenciosas de Rachel Carson (1962)"},
+    {dia: "29", celeb: "Dia internacional de concienciacion sobre la perdida y el desperdicio de alimentos"},
+
+];
+const octubre = [ 
+    {dia: "*", celeb: "Primer fin de semana de octubre Dia Mundial de las Aves"},
+    {dia: "*", celeb: "Primer lunes de octubre Dia Mundial del Habitat"},
+    {dia: "*", celeb: "2do miercoles de octubre Dia Internacional para la Reduccion de las Grandes Catastrofes Naturales"},
+    {dia: "*", celeb: "2do sabado de octubre Dia Mundial de las Aves Migratorias"},
+    {dia: "4", celeb: "Derrame de la balsa con residuos de la mineria del aluminio en Hungria (2010)"},
+    {dia: "16", celeb: "Dia Mundial de la Alimentacion"},
+    {dia: "19", celeb: "Accidente de Vandelios l (Tarragona, 1989)"},
+    {dia: "29", celeb: "Aniversario del crac del 29 Dia por el decrecimiento"},
+    {dia: "31", celeb: "Dia mundial de las ciudades"},
+
+];
+const noviembre = [ 
+    {dia: "1", celeb: "Aniversario revista El Ecologista"},
+    {dia: "6", celeb: "Dia internacional para la Prevencion de la Explotacion del MedioAmbiente en la Guerra y los conflictos Armados"},
+    {dia: "10", celeb: "2do miercoles de octubre Dia Internacional para la Reduccion de las Grandes Catastrofes Naturales"},
+    {dia: "*", celeb: "Asesinato de Ken Saro-Wiwa (1995)"},
+    {dia: "4", celeb: "Asesinato de Karen Silkwood (1974)"},
+    {dia: "16", celeb: "Accidente del Prestige"},
+    {dia: "19", celeb: "Accidente de Vandelios l (Tarragona, 1989)"},
+    {dia: "29", celeb: "Aniversario del crac del 29 Dia por el decrecimiento"},
+    {dia: "31", celeb: "Dia mundial de las ciudades"},
+
+];
+
+const diciembre = [ 
+    {dia: "3", celeb: "Accidente del Bhopal (1984)"},
+    {dia: "5", celeb: "Dia Mundial del Suelo"},
+    {dia: "6", celeb: "Constitucion de Ecologistas en Accion"},
+    {dia: "10", celeb: "Dia de los Derechos Humanos"},
+    {dia: "11", celeb: "Dia internacional de las Montañas"},
+    {dia: "12", celeb: "Accidente del Petrolero Erika (1999)"},
+    {dia: "22", celeb: "Asesinato de Chico Mendes (1998)"},
+    {dia: "30", celeb: "Aniversario del crac del 29 Dia por el decrecimiento"}
+
+];
+
    
 
 
@@ -91,3 +152,9 @@ creadorCalendario(marzo, "Marzo");
 creadorCalendario(abril, "Abril");
 creadorCalendario(mayo, "Mayo");
 creadorCalendario(junio, "Junio");
+creadorCalendario(julio, "Julio");
+creadorCalendario(agosto, "Agosto");
+creadorCalendario(septiembre, "Septiembre");
+creadorCalendario(octubre, "Octubre");
+creadorCalendario(noviembre, "Noviembre");
+creadorCalendario(diciembre, "Diciembre");
