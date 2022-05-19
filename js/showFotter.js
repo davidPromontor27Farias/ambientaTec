@@ -19,37 +19,37 @@ function insertFooter(){
                 <div class="enlaces-footer">
                     <div>
                         <a href="temas.html">
-                            <h2>Calendario</h2>
+                            <p>Calendario</p>
                         </a>
                         
                     </div>
                     <div>
                         <a href="propositos.html">
-                            <h2>Propositos</h2>
+                            <p>Propositos</p>
                         </a>
                         
                     </div>
                     <div>
                         <a href="creadores.html">
-                            <h2>Creadores</h2>
+                            <p>Creadores</p>
                         </a>
                         
                     </div>
                     <div>
                         <a href="certificaciones.html">
-                            <h2>Certificaciones</h2>
+                            <p>Certificaciones</p>
                         </a>
                         
                     </div>
                     <div>
                         <a href="proyectos.html">
-                            <h2>Proyectos</h2>
+                            <p>Proyectos</p>
                         </a>
                         
                     </div>
                     <div>
                         <a href="mascota.html">
-                            <h2>Mascota</h2>
+                            <p>Mascota</p>
                         </a>  
                     </div>
                 </div>
