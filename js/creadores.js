@@ -11,6 +11,7 @@ function crearSeccionAlumnos(){
     for(let i = 0; i < arregloAlumnos.length; i++){
         contador += 1;
         let card = document.createElement('DIV');
+        card.classList.add('animado');
         let imgAlumnos = document.createElement('IMG');
         imgAlumnos.src = `./build/img/alumnos/${contador}.webp`;
 
@@ -20,12 +21,10 @@ function crearSeccionAlumnos(){
         nombreAlumno.textContent = arregloAlumnos[i];
 
         card.appendChild(nombreAlumno);
-        
         contenedorPadre.appendChild(card);
 
 
     }
 
-    console.log(contenedorPadre);
-
 }
+
