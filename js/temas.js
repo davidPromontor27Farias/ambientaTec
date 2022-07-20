@@ -17,6 +17,16 @@ const infoTemas = [
         tema: '¿Por que optar por las energias renovables?',
         link: './energiasRenovables.html'
     },
+    {
+        img: './build/img/imagenesTemas/4.webp',
+        tema: 'El por que del calentamiento global',
+        link: './energiasRenovables.html'
+    },
+    {
+        img: './build/img/imagenesTemas/5.webp',
+        tema: '¿Como enseñar a as nuevas generaciones a cuidar del medio ambiente?',
+        link: './energiasRenovables.html'
+    },
 ]
 
 
