@@ -48,7 +48,7 @@ function showHeader(){
                         <div class="iconos-link">
                             <a href="./proyectos.html">
                                 <img src="./icons/icons8-proyecto-24.png" alt="proyectos">
-                                <p>Proyectos</p>
+                                <p>Temas</p>
                             </a>
                         </div>
                         <div class="iconos-link">
@@ -104,7 +104,7 @@ function showHeader(){
                         <div class="iconos-link">
                             <a href="./proyectos.html">
                                 <img src="./icons/icons8-proyecto-24.png" alt="proyectos">
-                                <p>Proyectos</p>
+                                <p>Temas</p>
                             </a>
                         </div>
                         <div class="iconos-link">
