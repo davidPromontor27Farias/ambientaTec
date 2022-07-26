@@ -9,8 +9,6 @@ const containMaster = document.querySelector('.containMaster');
 const febrero = [ {dia: "2", celeb: "Dia mundial de los humedales"}, { dia: "4", celeb: "Manifestacion en Riotino (Huelv, 1888)"}, {dia: "17 al 23", celeb: "Semana de lucha contra la pobreza energetica"}];
 
 const marzo = [ 
-    {dia: "2", celeb: "Dia mundial de los humedales"},
-    { dia: "4", celeb: "Manifestacion en Riotino (Huelv, 1888)"},
     {dia: "5", celeb: "Dia mundial de la Eficiencia Energetica"}, 
     {dia: "8", celeb: "Dia internacional de la Mujer"}, {dia: "11", celeb: "Accidente de Fukushima"},
     {dia: "14", celeb: "Dia internacional de accion por los rios"},
@@ -116,7 +114,7 @@ const diciembre = [
 
 
 function creadorCalendario(mes, months){
-    const month = document.createElement('H1');
+    const month = document.createElement('H2');
     month.textContent = months;;
 
     const containMedium = document.createElement("DIV");
